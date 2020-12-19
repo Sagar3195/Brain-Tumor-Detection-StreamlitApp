@@ -53,7 +53,7 @@ Original file is located at
 #     st.write("# Sorry, You have Brain Tumor Disease, Kindly contact your doctor.")
 #
 
-!ngrok authtoken 1lWUdS0U3Wx3MIr4kaaXKD5EXA0_5W93S5b4a7cUSx1bD8wdp
+#!ngrok authtoken XXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 !nohup streamlit run brain_tumor.py &
 
@@ -62,43 +62,5 @@ public_url = ngrok.connect(port = '8501')
 
 public_url
 
-ngrok.kill()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ngrok.kill()
 
