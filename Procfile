@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run cotton.py
+web: sh setup.sh && streamlit run brain_tumor.py
